@@ -1,3 +1,16 @@
+/*
+Name1  : Nurzhan Yergozhin
+Email1 : nurzhan.yergozhin@gmail.com
+Name2  : 
+Email2 : 
+
+Input  : we give an input of number of chairs and number of guests. 
+Output :
+Assumptions: 
+		1. Cook will finish cooking after randomised time
+		2. Number of chairs and number of guests will be fixed
+		3. 
+*/
 #include <iostream>
 #include <set>
 #include <ctime>
@@ -42,11 +55,11 @@ bool cmp (query A, query B) {
 
 int main () {
 	srand(time(NULL));
-	cin >> number_of_chairs;
+	cin >> number_of_chairs; 
 	cin >> number_of_guests;
 	int Q = number_of_guests;
 	int start_time = 0, end_time, persons = 0;
-	for (int id = 1; id <= Q; ++id) {
+	for (int id = 1; id <= Q; ++id) { 
 		query A, B;
 		A.personID = id;
 		A.entering = true;
