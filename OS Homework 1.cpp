@@ -1,4 +1,5 @@
 /*
+Team 2
 Name1  : Nurzhan Yergozhin
 Email1 : nurzhan.yergozhin@gmail.com
 Name2  : Loc Phan
